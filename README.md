@@ -6,10 +6,10 @@ This paper proposes a novel poseture refinement network that leverages local fea
 		
 ## Main Results
 ### Results on COCO val2017 without multi-scale test
-| Backbone | Input size | GFLOPs | AP | AP .5 | AP .75 | AP (M) | AP (L) | AR | AR .5 | AR .75 | AR (M) | AR (L) |
-|--------------------|------------|--------|-------|-------|--------|--------|--------|-------|-------|--------|--------|--------|
-| **pose_hrnet_w32** |  512x512 | 45.4 | 0.707 | 0.877 | 0.771 | 0.662 | 0.778 | 0.759 | 0.913 | 0.813 | 0.705 | 0.836 |
-| **pose_hrnet_w48** |  640x640 | 141.5 | 0.723 | 0.883 | 0.786 | 0.686 | 0.786 | 0.777 | 0.924 | 0.832 | 0.728 | 0.849 |
+| Backbone | Input size | AP | AP .5 | AP .75 | AP (M) | AP (L) | AR | AR .5 | AR .75 | AR (M) | AR (L) |
+|--------------------|------------|-------|-------|--------|--------|--------|-------|-------|--------|--------|--------|
+| **pose_hrnet_w32** |  512x512 | 0.707 | 0.877 | 0.771 | 0.662 | 0.778 | 0.759 | 0.913 | 0.813 | 0.705 | 0.836 |
+| **pose_hrnet_w48** |  640x640 | 0.723 | 0.883 | 0.786 | 0.686 | 0.786 | 0.777 | 0.924 | 0.832 | 0.728 | 0.849 |
 
 ### Results on COCO val2017 with multi-scale test
 | Backbone | Input size | #Params | GFLOPs | AP | AP .5 | AP .75 | AP (M) | AP (L) | AR | AR .5 | AR .75 | AR (M) | AR (L) |
