@@ -1,11 +1,8 @@
-# Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression
+# Local Feature Enhancement for Robust 2D Multi-Person Pose Estimation via Poseture Refinement Networks
 
 ## Introduction
-In this paper, we are interested in the bottom-up paradigm of estimating human poses from an image. We study the **dense keypoint regression framework** that is previously inferior to the keypoint detection and grouping framework. Our motivation is that regressing keypoint positions
-accurately needs to learn representations that focus on the
-keypoint regions.
+This paper proposes a novel poseture refinement network that leverages local feature enhancement and fusion to address these limitations. The network employs HRNet as the backbone to extract multi-scale feature maps, introducing a Dilated Convolution Module (DCM) with cascaded dilated convolutions to enrich pose keypoint representations. Additionally, a Hybrid Self-Attention Module (HSM) integrates contextual information, further refining pose estimates.
 
-We present a simple yet effective approach, named disentangled keypoint regression (DEKR). We adopt **adaptive convolutions** through pixel-wise spatial transformer to activate the pixels in the keypoint regions and accordingly learn representations from them. We use a multi-branch structure for **separate regression**: each branch learns a representation with dedicated adaptive convolutions and regresses one keypoint. The resulting disentangled representations are able to attend to the keypoint regions, respectively, and thus the keypoint regression is spatially more accurate. We empirically show that the proposed direct regression method outperforms keypoint detection and grouping methods and achieves superior bottom-up pose estimation results on two benchmark datasets, COCO and CrowdPose.
 		
 ## Main Results
 ### Results on COCO val2017 without multi-scale test
