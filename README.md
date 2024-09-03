@@ -1,4 +1,4 @@
-# GraphMLP: A Graph MLP-Like Architecture for 3D Human Pose Estimation
+# Local Feature Enhancement for Robust 2D Multi-Person Pose Estimation via Poseture Refinement Networks
 
 | ![skating](figure/skating.gif)  | ![anime](figure/dancing.gif) |
 | ------------- | ------------- |
