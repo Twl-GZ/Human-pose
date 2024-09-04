@@ -1,7 +1,7 @@
 # Local Feature Enhancement for Robust 2D Multi-Person Pose Estimation via Posture Refinement Network
 
 ## Introduction
-This paper proposes a novel poseture refinement network that leverages local feature enhancement and fusion to address these limitations. The network employs HRNet as the backbone to extract multi-scale feature maps, introducing a Dilated Convolution Module (DCM) with cascaded dilated convolutions to enrich pose keypoint representations. Additionally, a Hybrid Self-Attention Module (HSM) integrates contextual information, further refining pose estimates.
+This paper proposes a novel posture refinement network that leverages local feature enhancement and fusion to address these limitations. The network employs HRNet as the backbone to extract multi-scale feature maps, introducing a Dilated Convolution Module (DCM) with cascaded dilated convolutions to enrich pose keypoint representations. Additionally, a Hybrid Self-Attention Module (HSM) integrates contextual information, further refining pose estimates.
 
 		
 ## Main Results
